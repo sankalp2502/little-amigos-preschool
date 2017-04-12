@@ -1,0 +1,330 @@
+body{
+    /*background-image: url("../img/Background1.png");*/
+    font-size: 16px;
+}
+/*.container{
+    width: 70%;
+    margin: 10px auto;
+}*/
+.logo{
+    float: left;
+    width: 200px;
+    height: 120px;
+    cursor: pointer;
+}
+#myNavBar a{
+    padding: 0;
+}
+.nav-tabs{
+    padding: 20px 10px 10px 250px;
+}
+.no-padding{
+    padding: 0;
+}
+.hr{
+    height: 5px;
+}
+.little-amigos-preschool-logo-small{
+    display: block;
+}
+.little-amigos-preschool-logo-large{
+    display: none;
+}
+.fancy-content{
+    background-color: #5CC6D0;
+    color:#fff;
+    padding: 10px;
+}
+.fancy-content:not(:first-of-type){
+    position: relative;
+    top: -50px;
+}
+@media only screen and (min-width: 768px) {
+    .little-amigos-preschool-logo-small{
+        display: none;
+    }
+    .little-amigos-preschool-logo-large{
+        display: block;
+    }
+    .fancy-content{
+        border-radius: 50%;
+        padding: 50px;
+        font-size: 1.2em;
+    }
+    .navbar-nav{
+        margin-top: 40px;
+    }
+    nav ul li{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding-top: 40px;
+        text-align: center;
+        border-radius: 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav ul li{
+        padding: 5px;
+        border-radius: 20px;
+    }
+}
+.text-justified{
+    text-align: justify;
+}
+.logo-color-1{
+    background-color: #EC268F;
+}
+.logo-color-2{
+    background-color: #00AFEF;
+}
+.logo-color-3{
+    background-color: #A8CF45;
+}
+.logo-color-4{
+    background-color: #F58634;
+}
+.logo-color-5{
+    background-color: #A53692;
+}
+.logo-color-6{
+    background-color: #5CC6D0;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border: none;
+}
+.navbar-brand{
+    /*width: 300px;*/
+}
+.navbar-brand span{
+    /*width: 300px;*/
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    font-weight: bold;
+}
+nav ul li{
+    text-align: center;
+    cursor: pointer;
+}
+nav>ul>li>span>a{
+    color: #fff;
+}
+nav ul li:hover{
+    background-color: #F58634;
+    color: #fff;
+    box-shadow: 0px 0px 10px gray;
+}
+.active-tab:hover{
+    background-color: #ED3237;
+}
+.active-tab{
+    background-color: #ED3237;
+    color: #fff;
+    box-shadow: 0px 0px 10px gray;
+}
+.programs{
+    padding: 10px 20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: bold;
+    background-color: #F58634;
+    /*float: left;*/
+}
+.programs span{
+    /*padding: 5px;*/
+    /*margin-left: 10px;*/
+    color: #ffffff;
+}
+/*.admission-open{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    *//*width: 20%;*//*
+    *//*float: right;*//*
+    color: #fff;
+    font-weight: bold;
+    background-color: #ED3237;
+}*/
+.page-title{
+    color: #ED3237;
+    text-align: center;
+    margin: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h3,h4{
+    color: #A53692;
+    font-style: italic;
+}
+/*p{
+    text-indent: 50px;
+}*/
+.home-banner{
+    width: 100%;
+    height: 200px;
+}
+.map-container{
+    /*width: 60%;*/
+    height: 450px;
+    /*float: left;*/
+    border: 1px solid #a90329;
+    margin-top: 20px;
+    /*padding: 0px;*/
+}
+.address-container{
+    /*width: 40%;*/
+    /*float: right;*/
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.address-icon{
+    margin-right: 10px;
+    width: 19px;
+    float: left;
+    font-size: 1.2em;
+}
+.address-text{
+    float: left;
+}
+.float-clear{
+    clear: both;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.tab-content{
+    display: none;
+    padding: 20px 0px;
+}
+.tab-content ul li{
+    list-style-type: disc;
+}
+.coming-soon {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ED3237;
+}
+.flash{
+    -webkit-animation: flash 2s linear 0s infinite alternate; /* Chrome, Safari, Opera */
+    animation: flash 2s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes flash {
+    0%, 100%, 50% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.margin-bottom-5{
+    margin-bottom: 5px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.programs-container{
+    width: 10px;
+    /*background-color: brown;*/
+    height: 300px;
+    margin: auto;
+}
+.admission-open{
+    font-size: 1.8em;
+    text-shadow: 2px 2px 5px red;
+    font-weight: bold;
+    color: #ddd;
+    text-transform: uppercase;
+}
+.programs-heading{
+    width: 100px;
+    background: linear-gradient(to left, #b35900, #e67300);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: -45px;
+    height: 30px;
+    padding-top:2px;
+    /*border-top-left-radius: 25px;*/
+    /*border-top-right-radius: 25px;*/
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.arrow-program {
+    width: 100%;
+    /*background: linear-gradient(to left, #b35900, #e67300);*/
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 1.8em;
+    padding:2px;
+    border: 1px solid #eeeeee;
+    /*-webkit-transform: rotate(-10deg);*/
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px -5px 5px grey;
+    font-size: 1.6em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/*
+.arrow-program {
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: -75px;
+    height: 40px;
+    padding:2px;
+    border: 1px solid #eeeeee;
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.arrow-program::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    border-width: 19px;
+    border-style: solid;
+    border-color: transparent transparent transparent #b35900;
+}*/
+/*.arrow-program::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent transparent #f5f5f5;
+}*/
+
+.home-carousel-inner{
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+}

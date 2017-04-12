@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html ng-app="littleamigosapp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Little,Amigos,Preschool,Little Amigos Preschool,Best preschool in hsr layout,best,preschool,hsr,layout,play school">
+    <meta name="description" content="Little Amigos Preschool is a leading preschool in HSR Layout Bangalore">
+    <link rel="alternate" hreflang="en" href="http://littleamigospreschool.com/" />
+    <title>Little Amigos Preschool - Best Play School/Preschool in HSR Layout</title>
+
+</head>
+<body ng-controller="littleamigoscontroller"  style="background-image: url('../img/background1.png')">
+<div id="fb-root"></div>
+
+<!--<img src="../img/background1.png" width="100%" height="100%" style="position: fixed; top: 0; z-index: -1;">-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://littleamigospreschool.com/#/home" hreflang="en">
+                <img class="little-amigos-preschool-logo-small" src="../img/small-logo.png" style="width: 80%; height: 80%;" alt="Little Amigos Preschool" />
+                <img class="little-amigos-preschool-logo-large" src="../img/little-amigos-preschool.png" style="width: 60%; height: 60%;" alt="Little Amigos Preschool" />
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="little-amigos-preschool-tab home" data-tab-name="home-tab-content" ng-click="changeView('home')">Home</li>
+                <li class="little-amigos-preschool-tab about" data-tab-name="about-tab-content" ng-click="changeView('about')">About</li>
+                <li class="little-amigos-preschool-tab event" data-tab-name="events-tab-content" ng-click="changeView('events')">Events</li>
+                <li class="little-amigos-preschool-tab gallery" data-tab-name="gallery-tab-content" ng-click="changeView('gallery')">Gallery</li>
+                <li class="little-amigos-preschool-tab contact" data-tab-name="contact-tab-content" ng-click="changeView('contact')">Contact</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="col-xs-2 col-md-2 hr logo-color-1"></div>
+<div class="col-xs-2 col-md-2 hr logo-color-2"></div>
+<div class="col-xs-2 col-md-2 hr logo-color-3"></div>
+<div class="col-xs-2 col-md-2 hr logo-color-4"></div>
+<div class="col-xs-2 col-md-2 hr logo-color-5"></div>
+<div class="col-xs-2 col-md-2 hr logo-color-6"></div>
+<div class="container">
+
+    <div class="content">
+        <div ng-view=""></div>
+    </div>
+</div>
+<div class="col-xs-12 no-padding">
+    <div class="col-xs-2 col-md-2 hr logo-color-1"></div>
+    <div class="col-xs-2 col-md-2 hr logo-color-2"></div>
+    <div class="col-xs-2 col-md-2 hr logo-color-3"></div>
+    <div class="col-xs-2 col-md-2 hr logo-color-4"></div>
+    <div class="col-xs-2 col-md-2 hr logo-color-5"></div>
+    <div class="col-xs-2 col-md-2 hr logo-color-6"></div>
+</div>
+<div class="text-center margin-top-10 margin-bottom-20">
+    <b>#152, 4<sup>th</sup> Cross, 24<sup>th</sup> Main, Sector 1, HSR Layout, Bangalore - 560102</b>
+    <b><span class="fa fa-phone margin-left-10"></span>&nbsp;+91 9916888440</b>
+</div>
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="../css/fotorama.css" rel="stylesheet" type="text/css">
+<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" rel="script" src="../js/angular.min.js"></script>
+<script type="text/javascript" rel="script" src="../js/angular-route.min.js"></script>
+<script type="text/javascript" rel="script" src="../js/app.js"></script>
+<script type="text/javascript" rel="script" src="../js/jquery-1.12.1.min.js" async></script>
+<script type="text/javascript" rel="script" src="../js/jquery-ui.min.js" async></script>
+<script type="text/javascript" rel="script" src="../js/main.js" async></script>
+<script type="text/javascript" rel="script" src="../js/fotorama.js" async></script>
+<script type="text/javascript" rel="script" src="../js/bootstrap.min.js" async></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-76847146-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
